@@ -128,3 +128,5 @@
     - 앞서 실패한 테스트 상황에 대한 명세 및 테스트 영상을 HBGray사에 직접 문의하였다.
     - HBGary 지원포럼에 가입하여 문제 상황 문의 및 해결을 시도하였다.
     - 추가적으로 설명서 PDF에 명시된 여러 지원 환경에서 해당기능에 대한 **3차 테스트를 시도**하였으나 모두 **실패**하였다. (테스트 환경: `Windows 2003 SP1 Ko`, `Windows XP SP2 En`, `Windows XP SP3 En`, `Windows XP SP3 Ko`)
+
+**User Guide에 명시되어 있는 적합한 환경에서 테스트를 하고 pdf와 동영상을 HBGary사에 적극적으로 보낸 것으로 보아 실무자는 Responder의 ‘Runtime Analysis’ 기능이 필요 했음을 명백히 확인 할 수 있다.**
