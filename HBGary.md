@@ -4,7 +4,7 @@
 
 # Q. 기술적으로 어떤 것이 문제 였나?
 
-## 1) Responder 프로그램 자체의 문제 <sup>1</sup>
+## 1) Responder 프로그램 자체의 문제
 
 ### 1-1) dynamic analysis 기능 작동에 관한 서술
 - 여러 종류의 컴퓨터에서 Responder의 **dynamic analysis** 기능X
@@ -29,17 +29,3 @@
         - `project 생성` → `working canvas` → `debugging` → `target process : winmine.exe`, `PID:5600 → dynamic analysis` → `"Write not yet available, waiting ... "`
     - 영상 속 액션2 :
         - `winmine.exe 우클릭` → `package` → `analyze binary` → `bookmarks , strings, symbols 생성` → `기능 오류 (5830)`
-
---- 
-
-<sup>1</sup>Reference :
-
-*https://wikileaks.org/hbgary-emails/emailid/64323*
-
-*https://wikileaks.org/hbgary-emails/emailid/66780*
-
-*https://wikileaks.org/hbgary-emails/emailid/57263* 첨부파일
-
-*https://wikileaks.org/hbgary-emails/emailid/57263* → attachments → Responder Bug video.rarefe
-
----
