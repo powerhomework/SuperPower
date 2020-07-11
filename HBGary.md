@@ -26,9 +26,9 @@
         - hbGary Responder professional Edition ver1.3.0.376
         - OS : windows XP SP3 
     - 영상 속 액션 : 
-        - project 생성 → working canvas → debugging → target process : winmine.exe , PID:5600 → dynamic analysis → "Write not yet available, waiting ... "
+        - `project 생성` → `working canvas` → `debugging` → `target process : winmine.exe`, `PID:5600 → dynamic analysis` → `"Write not yet available, waiting ... "`
     - 영상 속 액션2 :
-        - winmine.exe 우클릭 → package → analyze binary → bookmarks , strings, symbols 생성 → 기능 오류 (5830)
+        - `winmine.exe 우클릭` → `package` → `analyze binary` → `bookmarks , strings, symbols 생성` → `기능 오류 (5830)`
 
 --- 
 
