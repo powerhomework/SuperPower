@@ -2,7 +2,7 @@
     <img src="img/sample.jpg">
 </p>
 
-# Q. 기술적으로 어떤 것이 문제 였나?
+# Q1. 기술적으로 어떤 것이 문제 였나?
 
 > < 실무자와 주고받은 메일 속 내용 기술 부분 > ← 어떻게 넣을지 수정 필요
 
@@ -105,3 +105,26 @@
     - 구현시, 스택 기반 버퍼 오버플로우 오류 포함
     - Set-UID 권한으로 동적 링크 라이브러리를 로드하면 라이브러리에서 루트 권한으로 실행
     - 하드 링크, 파일 디스크립터 리디렉션 및 환경 변수 설정을 포함한 다양한 트릭을 통해 루트 권한을 얻을 수 있음
+
+---
+
+# Q2. 실무자가 원했던 기능은 무엇이었나?
+
+ 실무자는 Responder 디버거에서 제공하는 **`Runtime Analysis`** 기능을 원했다.
+
+## 1) 실무자의 Runtime Analysis를 위한 Responder 디버거 구매
+
+- 실무자는 **Runtime Analysis 기능을 사용하기 위해서 Responder를 구매**했다. **Runtime Analysis 기능**은 HBGary의 주요 홈페이지인  Runtime Malware Analysis에 게시된 비디오에서, 그리고 2007년 블랙햇 발표에서 소개되었다.
+
+- Runtime Analysis는 리버스 엔지니어링 문제를 쉽게 해결하는 것이 목적이다. 주요 기능으로는 코드와 데이터의 흐름을 동적수집 후 이를 그래프에 저장하여, 객체와 이벤트간의 상관관계, 특정 데이터의 존재등을 분석하는 기능을 한다.
+
+## 2) 실무자의 Responder 사용 및 문제발생 후 해결시도
+
+- 실무자는 HBGary Responder를 구매한 후 **User Guide 의 Instruction**에 따라 **1차 테스트를 시도**하여, "Analyze Binary" 섹션을 얻는데는 성공하였다. 하지만 **subroutine과 binary code에 대한 access를 제공하는 부분인 "Global" 섹션을 얻을 수가 없는 문제가 발생**하였다.
+
+- 실무자는 Runtime Analysis 기능문제의 해결을 위해 다음과 같은 방법을 시도하였다.
+    - HBGary Support Team에 문제상황을 문의하여 설명서 PDF파일을 수령하였다(수령).
+    - 설명서 PDF를 토대로 2차 Responder 사용을 시도하였으나, 버그 해결에 실패하였다.
+    - 앞서 실패한 테스트 상황에 대한 명세 및 테스트 영상을 HBGray사에 직접 문의하였다.
+    - HBGary 지원포럼에 가입하여 문제 상황 문의 및 해결을 시도하였다.
+    - 추가적으로 설명서 PDF에 명시된 여러 지원 환경에서 해당기능에 대한 **3차 테스트를 시도**하였으나 모두 **실패**하였다. (테스트 환경: `Windows 2003 SP1 Ko`, `Windows XP SP2 En`, `Windows XP SP3 En`, `Windows XP SP3 Ko`)
