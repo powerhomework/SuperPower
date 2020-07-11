@@ -2,11 +2,9 @@
     <img src="img/sample.jpg">
 </p>
 
-<p align=center style="font-size:30px"><strong>Q. 기술적으로 어떤 것이 문제 였나?</strong></p>
+# Q. 기술적으로 어떤 것이 문제 였나?
 
----
-
-<p style="font-size:24px"><strong>1) Responder 프로그램 자체의 문제<sup>1</sup></strong></p>
+## 1) Responder 프로그램 자체의 문제 <sup>1</sup>
 
 ### 1-1) dynamic analysis 기능 작동에 관한 서술
 - 여러 종류의 컴퓨터에서 Responder의 **dynamic analysis** 기능X
