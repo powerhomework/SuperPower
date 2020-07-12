@@ -14,11 +14,11 @@
 - 여러 종류의 컴퓨터에서 Responder의 **dynamic analysis** 기능 X
     - Windows XP En SP2/SP3, Windows XP Ko SP3, Windows 2003 SP2
 - dynamic analysis 외의 기능은 정상 동작 확인
-    - 커널 디버거, 가상머신 메모리 분석, 메모리 덤프 (static)
-    - runtime analysis 본래 기능 X (5830)
+    - 커널 디버거, 가상머신 메모리 분석, 메모리 덤프
+    - runtime analysis 본래 기능 X
 
 ### 1-2) dynamic analysis 기능 미작동 증명 동영상
-- 구매자의 지뢰 찾기 프로그램 통한 작동 검증 동영상 (3에 자세하게 기술)
+- 구매자의 지뢰 찾기 프로그램 통한 작동 검증 동영상
     - dynamic analysis 기능에서 analyze binary를 실행
     - 완료된 폴더에서 Bookmarks, Strings, Symbols 폴더만 존재
     - Global 폴더가 존재하지 않아, dynamic analysis 불가능
@@ -30,7 +30,7 @@
     - 영상 속 액션 : 
         - `project 생성` → `working canvas` → `debugging` → `target process : winmine.exe`, `PID:5600 → dynamic analysis` → `"Write not yet available, waiting ..."`
     - 영상 속 액션2 :
-        - `winmine.exe 우클릭` → `package` → `analyze binary` → `bookmarks, strings, symbols 생성` → `기능 오류 (5830)`
+        - `winmine.exe 우클릭` → `package` → `analyze binary` → `bookmarks, strings, symbols 생성` → `기능 오류`
 
 ## 2) Responder 프로그램을 대처하는 Flypaper의 기술적 부족 <sup id="1"><a href="https://youtu.be/PAFM9jSIXEQ">1</a></sup>
 
